@@ -36,3 +36,12 @@ Es un mini-proyecto para la prueba técnica de formadora Data Analytics. El obje
 - **Periodo:** 1999-2026, mensual. Última actualización: agosto de 2026. Los datos de enero de 2026 en adelante son provisionales.
 - **Tamaño:** Ver sección 3 del notebook.
 - **Columnas principales:** `Provincias`, `Periodo`, `Establecimientos y personal empleado (plazas)` (indica la métrica de cada fila) y `Total` (su valor). Como cada fila es una métrica distinta, `Total` cambia de unidad según la métrica.
+
+## Calidad del dato y limpieza
+
+- Los valores `..` del INE significan "dato no disponible": se convierten en nulos y se eliminan.
+- `Total` llega como texto en formato español (punto de miles, coma decimal) y se convierte a número.
+- `Periodo` (`2010M01`) se separa en `Año` y `Mes`.
+- Tras convertir `Total` aparecen 70 nulos nuevos que se eliminan.
+- Outliers: los valores altos de ocupación se mantienen porque corresponden a picos reales (ninguno supera el 100 % ni baja del 0 %).
+- Antes/después de dimensiones y % de nulos: ver el notebook, sección 3.
