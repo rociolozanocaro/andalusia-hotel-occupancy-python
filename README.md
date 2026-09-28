@@ -45,3 +45,12 @@ Es un mini-proyecto para la prueba técnica de formadora Data Analytics. El obje
 - Tras convertir `Total` aparecen 70 nulos nuevos que se eliminan.
 - Outliers: los valores altos de ocupación se mantienen porque corresponden a picos reales (ninguno supera el 100 % ni baja del 0 %).
 - Antes/después de dimensiones y % de nulos: ver el notebook, sección 3.
+
+## SQL
+
+El dataset limpio se carga en SQLite (`2066.db`, tabla `tabla_2066_limpia`) y se crea una tabla auxiliar `temporadas` donde los meses de verano son temporada alta y el resto baja. Las 4 consultas están en el notebook, sección 5.
+
+1. Ranking de provincias por ocupación media.
+2. Meses de mayor ocupación en Málaga.
+3. Málaga frente a Cádiz en ocupación y personal empleado.
+4. Temporada alta frente a baja en Málaga.
