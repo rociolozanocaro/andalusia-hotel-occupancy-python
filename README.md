@@ -14,7 +14,10 @@ Es un mini-proyecto para la prueba técnica de formadora Data Analytics. El obje
 ├── data/
 │   ├── 2066.csv                    #Copia del CSV original
 │   └── 2066_limpio.csv             #Dataset tras la limpieza
-└── img/                            #
+└── img/                            #Visualizaciones
+    ├── visualización1                  
+    ├── visualización2
+    └── visualización3
 ```
 
 ## Cómo ejecutarlo
@@ -54,3 +57,11 @@ El dataset limpio se carga en SQLite (`2066.db`, tabla `tabla_2066_limpia`) y se
 2. Meses de mayor ocupación en Málaga.
 3. Málaga frente a Cádiz en ocupación y personal empleado.
 4. Temporada alta frente a baja en Málaga.
+
+## Visualizaciones
+
+1. Evolución de la ocupación 1999-2026, Málaga frente a Cádiz.
+2. Estacionalidad en Málaga: ocupación y personal empleado por mes.
+3. Distribución de la ocupación mensual, Málaga frente a Cádiz.
+
+**Por qué estos visuales:** línea para la evolución temporal, dos paneles para comparar la estacionalidad de dos variables con escalas distintas, boxplot para comparar la dispersión entre provincias. Se descarta el gráfico circular porque no hay partes de un total que comparar.
