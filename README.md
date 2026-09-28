@@ -25,3 +25,14 @@ Es un mini-proyecto para la prueba técnica de formadora Data Analytics. El obje
 4. En local: `pip install -r requirements.txt`. La librería `missingno` se instala en la primera celda con `%pip install missingno`.
 
 ---
+
+## El dataset
+
+- **Fuente:** Encuesta de Ocupación Hotelera (EOH), INE. Tabla 2066: establecimientos, plazas, grado de ocupación y personal empleado por provincia.
+- **Enlaces:** [CSV](https://www.ine.es/jaxiT3/files/t/csv_bdsc/2066.csv) · [Tabla en INEbase](https://www.ine.es/jaxiT3/Tabla.htm?t=2066) · [Metadatos](https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30235) · [Definición de variables (páginas 4 y 5)](https://www.ine.es/daco/daco42/ocuphotel/meto_eoh.pdf)
+- **Licencia de los datos:** Creative Commons Reconocimiento 4.0 (CC BY 4.0). *Elaboración propia con datos extraídos del sitio web del INE: www.ine.es.*
+- **Unidad de análisis:** provincia × mes (cada fila es una provincia en un mes concreto).
+- **Unidades de medida:** varían según la variable: viajeros, pernoctaciones, días, personas, tanto por cien, establecimientos, plazas y habitaciones.
+- **Periodo:** 1999-2026, mensual. Última actualización: agosto de 2026. Los datos de enero de 2026 en adelante son provisionales.
+- **Tamaño:** Ver sección 3 del notebook.
+- **Columnas principales:** `Provincias`, `Periodo`, `Establecimientos y personal empleado (plazas)` (indica la métrica de cada fila) y `Total` (su valor). Como cada fila es una métrica distinta, `Total` cambia de unidad según la métrica.
