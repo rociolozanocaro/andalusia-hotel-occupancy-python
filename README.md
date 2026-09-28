@@ -59,12 +59,13 @@ El dataset limpio se carga en SQLite (`2066.db`, tabla `tabla_2066_limpia`) y se
 4. Temporada alta frente a baja en Málaga.
 
 ## Visualizaciones
-![Visualización1](img/Visualización1.png)
+
 1. Evolución de la ocupación 1999-2026, Málaga frente a Cádiz.
-![Visualización2](img/Visualización2-1.png)
-![Visualización2](img/Visualización2-2.png)
+ ![Visualización1](img/Visualización1.png)
 2. Estacionalidad en Málaga: ocupación y personal empleado por mes.
-![Visualización3](img/Visualización3.png)
+ ![Visualización2](img/Visualización2-1.png)
+ ![Visualización2](img/Visualización2-2.png)
 3. Distribución de la ocupación mensual, Málaga frente a Cádiz.
+ ![Visualización3](img/Visualización3.png)
 
 **Por qué estos visuales:** línea para la evolución temporal, dos paneles para comparar la estacionalidad de dos variables con escalas distintas, boxplot para comparar la dispersión entre provincias. Se descarta el gráfico circular porque no hay partes de un total que comparar.
