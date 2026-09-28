@@ -16,3 +16,12 @@ Es un mini-proyecto para la prueba técnica de formadora Data Analytics. El obje
 │   └── 2066_limpio.csv             #Dataset tras la limpieza
 └── img/                            #
 ```
+
+## Cómo ejecutarlo
+
+1. Abre el notebook en Google Colab.
+2. Ejecuta todas las celdas en orden: Ejecutar todo/Run all.
+3. El notebook descarga los datos directamente desde la web del INE, así que no hay que subir ningún archivo. Si la web del INE fallara, sube `data/2066.csv` a Colab y cambia la URL por `'2066.csv'` en la celda de carga.
+4. En local: `pip install -r requirements.txt`. La librería `missingno` se instala en la primera celda con `%pip install missingno`.
+
+---
