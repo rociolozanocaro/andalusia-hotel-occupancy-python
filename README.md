@@ -132,4 +132,19 @@ A la hora de interpretar las visualizaciones se pueden hacer preguntas de verdad
 
 Una buena manera de saber si lo han entendido bien es preguntarles y que den toda la explicación sobre la interpretación o la solución del código. Así se puede evaluar dónde necesitan refuerzo. También es importante intentar que participen todos o la mayoría y no solamente las mismas personas monopolizando la conversación. También puede funcionar que se lo expliquen los propios compañeros entre sí si tienen esa iniciativa.
 
+Después de ver el notebook, la idea sería que según el nivel de cada uno hicieran la misma actividad pero de diferente forma, es decir, los que tienen un nivel más básico podrían usar ese mismo notebook pero sin nada de código, solo con los comentarios y podrían ir completándolos (intentando favorecer siempre que sea posible el estudio activo frente al pasivo). 
+El siguiente nivel sería usar ese mismo dataset y ampliar con otro csv complementario (el 2074, por ejemplo).
+Este dataset permite hacer machine learning supervisado y series temporales. En caso de que tuvieran un nivel bastante alto se podría proponer que completaran el notebook.
+
+También podría ofrecerse la posibilidad de elegir otro dataset y hacer la limpieza, consultas, visuaalizaciones y conclusiones. Haciendo que el alumnado estudie el ciclo completo desde la búsqueda del dataset hasta las conclusiones.
+
 ## Qué puede salir mal y cómo solucionarlo
+
+- Errores de typo en el código. 
+- Que se vaya internet.
+- Problemas al descargar desde la web (para eso ya estarían descargados los archivos con antelación).
+- Que la formadora no sepa la solución a una duda. Se puede decir lo que se cree que es la solución y confirmarlo al día siguiente. Si fuera una duda sencilla se podría buscar en ese momento y responder. Si no es posible se resolvería la duda al día siguiente.
+- Correr celdas de manera no consecutivas. La solución es volver a correrlas en orden.
+- Que no entiendan lo más básico. La solución sería ir más despacio hasta encontrar qué está pasando y en otro momento reforzar con otra actividad o en la misma actividad, si es posible, esas dificultades.
+- Que lo entiendan todo y se aburran. La solución sería no explicar todo de manera básica, sino dando algunas cosas por sentado y proponer una actividad no basándose en ese dataset para que hagan un ejercicio con el ciclo completo.
+- Que sea un grupo que tenga niveles muy dispares de conocimiento. La solución sería ir explicando al ritmo de los que menos conocimientos tienen y ofrecer recursos extras por si lo necesitan a la vez que actividades de más dificultad, tal y como están puestas en lo de los distintos niveles (ampliar notebook, ampliar actividades como hacer machine learning o series temporales o usar otro dataset distinto para completar el ciclo del dato completamente por ellos mismos).
